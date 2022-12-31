@@ -1,0 +1,12 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Unable to find matching response</h1>
+        <ul>
+            <li>URL: {{ path }}</li>
+            <li>Body: {{ body }}</li>
+            {% if error %}<li>Error: {{ error }}</li>{% endif %}
+        </ul>
+    </body>
+</html>

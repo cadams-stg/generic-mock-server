@@ -1,0 +1,4 @@
+{
+    'message': 'hello',
+    'extra_kwarg': '{{extraneous}}',
+}

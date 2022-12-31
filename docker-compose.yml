@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: ./setup/Dockerfile
+    restart: on-failure:3
+    ports:
+      - "8088:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - .:/code
+    env_file: env/.env
+    command: /start.sh

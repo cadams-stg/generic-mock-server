@@ -1,0 +1,5 @@
+{
+    name: 'Mock Server',
+    company: 'Summit Technology Group',
+    version: '1.0'
+}

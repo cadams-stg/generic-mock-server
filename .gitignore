@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+.pytest_cache/
+/static
+/media
+venv/
+db.sqlite3
